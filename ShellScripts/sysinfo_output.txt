@@ -1,0 +1,27 @@
+======================================
+       SYSTEM INFORMATION REPORT
+======================================
+Name: Nishant
+Roll Number: 2601730067
+Date: Thu Nov 26 06:19:14 UTC 2026
+
+CPU INFORMATION
+--------------------------------------
+CPU(s):                                  12
+Model name:                              13th Gen Intel(R) Core(TM) i5-13420H
+
+MEMORY INFORMATION
+--------------------------------------
+Total Memory: 7.6Gi
+Used Memory: 546Mi
+
+TOP 3 PROCESSES BY CPU
+--------------------------------------
+    PID COMMAND         %CPU
+   1406 wsl-pro-service  0.1
+     86 systemd-udevd    0.0
+      1 systemd          0.0
+
+======================================
+Report generated successfully.
+======================================
