@@ -1,0 +1,49 @@
+total 68
+drwxr-x--- 8 nishant nishant  4096 Nov 26 06:10 .
+drwxr-xr-x 3 root    root     4096 Oct  6 02:50 ..
+-rw------- 1 nishant nishant 14407 Nov 23 12:27 .bash_history
+-rw-r--r-- 1 nishant nishant   220 Oct  6 02:50 .bash_logout
+-rw-r--r-- 1 nishant nishant  3771 Oct  6 02:50 .bashrc
+drwxr-x--- 4 nishant nishant  4096 Oct  6 02:51 .cache
+drwxr-x--- 4 nishant nishant  4096 Oct 19 09:13 .config
+-rw-r--r-- 1 nishant nishant    88 Nov 26 06:10 .gitconfig
+-rw------- 1 nishant nishant    20 Nov 14 13:55 .lesshst
+drwx------ 3 nishant nishant  4096 Oct 25 13:14 .local
+-rw-rw-r-- 1 nishant nishant     0 Nov 26 01:57 .motd_shown
+-rw-r--r-- 1 nishant nishant   807 Oct  6 02:50 .profile
+drwxr-xr-x 3 nishant nishant  4096 Oct 30 15:03 cse103_lab
+drwxr-xr-x 4 nishant nishant  4096 Nov 23 06:06 developer-portfolio
+drwxr-xr-x 5 nishant nishant  4096 Oct 25 13:22 organizer_test
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  24600 15568 ?        Ss   05:47   0:00 /sbin/init
+root           2  0.0  0.0   3820  2520 hvc0     Sl+  05:47   0:00 /init
+root           3  0.0  0.0   3680  2220 hvc0     S+   05:47   0:00 init-watcher
+root           7  0.0  0.0   3852  2448 hvc0     Sl+  05:47   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          47  0.0  0.3  58844 24944 ?        S<s  05:47   0:00 /usr/lib/systemd/systemd-journald
+systemd+      79  0.0  0.1  22432 14484 ?        Ss   05:47   0:00 /usr/lib/systemd/systemd-resolved
+root          86  0.0  0.1  34820 12064 ?        Ss   05:47   0:00 /usr/lib/systemd/systemd-udevd
+root         106  0.0  0.0   2888  2012 ?        Ss   05:47   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         107  0.0  0.0   4472  3148 ?        Ss   05:47   0:00 /usr/sbin/cron -f -P
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         476G  145G  332G  31% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.8G   40K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  3.4M  3.8G   1% /init
+none            3.8G  528K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   80K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   80K  3.8G   1% /mnt/wslg/doc
+C:\             476G  145G  332G  31% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.8G     0  3.8G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           776M   12K  776M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       541Mi       6.9Gi       4.1Mi       296Mi       7.0Gi
+Swap:          2.0Gi          0B       2.0Gi
